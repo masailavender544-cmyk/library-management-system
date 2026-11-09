@@ -10,7 +10,7 @@ Maintains data consistency across all books within the same genre.
 Makes updates easier because changing a genre name only requires updating one record.
 Follows database normalization principles and relational database best practices.
 
-For example, many books can belong to the "Fiction" genre while referencing the same Genre record rather than storing the word "Fiction" repeatedly in every book row.
+For example, many books can belong to the Fiction genre while referencing the same Genre record rather than storing the word Fiction repeatedly in every book row.
 
 Prisma vs Document Databases
 
